@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: lighthouse-role
   namespace: wineperm
-  author: Krasil'nikov Leonid Stanislavovich
+  author: Krasil'nikov Leonid
   description: Install lighthouse
   company: your company (optional)
 
