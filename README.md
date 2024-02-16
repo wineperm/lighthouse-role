@@ -11,8 +11,9 @@ Any pre-requisites that may not be covered by Ansible itself or the role should 
 Role Variables
 --------------
 
-lighthouse_access_log_name: lighthouse_access
-nginx_user_name: root
+- lighthouse_access_log_name: lighthouse_access
+
+- nginx_user_name: root
 
 <!-- Dependencies
 ------------
@@ -24,7 +25,7 @@ Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-    - hosts: servers
+    - hosts: lighthouse-01
       roles:
          - { role: lighthouse-role }
 
@@ -36,4 +37,4 @@ MIT
 Author Information
 ------------------
 
-Krasil'nikov Leonid Stanislavovich
+Krasil'nikov Leonid (wineperm)
